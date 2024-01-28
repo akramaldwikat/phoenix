@@ -124,3 +124,11 @@ $(".Search").click(function () {
 $(".searchForm .closed").click(function () {
     $(".searchForm").fadeOut();
 });
+
+// $(".menuIcon").click(function () {
+//     $(".menuMobile").fadeToggle();
+// });
+
+$(".menuIcon").click(function () {
+    $(".menuMobile").toggleClass("active");
+});
