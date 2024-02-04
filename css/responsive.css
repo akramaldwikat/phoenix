@@ -139,6 +139,10 @@
         width: auto;
     }
 
+    .aboutUs .about .count .image {
+        width: 50px;
+    }
+
     .aboutUs .about .count .image::after {
         left: -25px;
     }
@@ -335,11 +339,11 @@
     }
 
     .slider li.slide fieldset .container {
-        width: 98% !important;
+        width: 94% !important;
     }
 
     .slider li.slide .content {
-        width: 23%;
+        width: 28%;
     }
 
     .aboutUs .image img {
@@ -377,6 +381,10 @@
     .aboutUs .about .count fieldset {
         width: 100%;
         text-align: center;
+    }
+
+    .aboutUs .about .count .image {
+        width: 50px;
     }
 
     .aboutUs .about .count .image::after {
