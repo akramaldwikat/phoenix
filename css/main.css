@@ -695,6 +695,8 @@ header .headerBottom .headerBottomMobile {
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
+    height: 45px;
+    overflow: hidden;
 }
 
 .ourMenu .product .card .card-body .card-text {
@@ -703,6 +705,8 @@ header .headerBottom .headerBottomMobile {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    overflow: hidden;
+    height: 60px;
 }
 
 .ourMenu .product .card .addCart {
