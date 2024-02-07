@@ -109,6 +109,16 @@
         justify-content: center;
     }
 
+    .slider,
+    .slider .slide,
+    .slider .slideImage img{
+        height: auto;
+    }
+
+    .slider li.slide .content{
+        font-size: 18px;
+    }
+
     .aboutUs {
         position: relative;
         padding: 50px 0;
