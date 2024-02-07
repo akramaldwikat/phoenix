@@ -76,11 +76,7 @@
     header .headerTop .container .headerTopMobile ul {
         display: flex;
         align-items: center;
-        justify-content: space-around;
-    }
-
-    header .headerTop .container .headerTopMobile ul:first-child {
-        margin-bottom: 15px;
+        gap: 15px;
     }
 
     header .headerTop .container .headerTopLeft ul {
@@ -245,7 +241,9 @@
 
     header .headerTop .headerTopMobile,
     header .headerBottom .headerBottomMobile {
-        display: block;
+            display: flex;
+    align-items: center;
+    justify-content: space-between;
     }
 
     header .headerBottom .headerBottomMobile {
