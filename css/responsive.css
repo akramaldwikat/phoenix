@@ -73,10 +73,14 @@
         display: none;
     }
 
-    header .headerTop .container .headerTopMobile ul.social {
+    header .headerTop .container .headerTopMobile ul {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+
+    header .headerTop .container .headerTopMobile ul:first-child {
+        margin-bottom: 15px;
     }
 
     header .headerTop .container .headerTopLeft ul {
@@ -343,7 +347,7 @@
     }
 
     .slider li.slide .content {
-        width: 28%;
+        width: 82%;
     }
 
     .aboutUs .image img {
@@ -397,10 +401,6 @@
         left: -10px;
         top: -10px;
         z-index: -1;
-    }
-
-    .aboutUs .about .count fieldset:last-child .image::after {
-        left: -20px;
     }
 
     .searchForm .closed {
