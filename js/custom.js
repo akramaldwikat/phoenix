@@ -122,7 +122,7 @@ $(".Search").click(function () {
 
 $(".formSearch .closed").click(function () {
     $(".formSearch").fadeOut();
-});;
+});
 
 $(".menuIcon").click(function () {
     $(".menuMobile").toggleClass("active");
