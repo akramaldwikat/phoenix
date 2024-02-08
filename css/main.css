@@ -623,6 +623,7 @@ header .headerBottom .headerBottomMobile {
     display: inline-block;
     padding: 0 6px;
     min-width: 14%;
+    width: 100%;
 }
 
 .ourMenu .product .card {
@@ -810,6 +811,7 @@ header .headerBottom .headerBottomMobile {
     display: inline-block;
     padding: 0 6px;
     min-width: 14%;
+    width: 100%;
 }
 
 .news .new .card {
