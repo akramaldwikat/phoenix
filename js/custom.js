@@ -117,16 +117,12 @@ $(".ourMenu #ourMenuSlider").slick({
 });
 
 $(".Search").click(function () {
-    $(".searchForm").fadeIn();
+    $(".formSearch").fadeIn();
 });
 
-$(".searchForm .closed").click(function () {
-    $(".searchForm").fadeOut();
-});
-
-// $(".menuIcon").click(function () {
-//     $(".menuMobile").fadeToggle();
-// });
+$(".formSearch .closed").click(function () {
+    $(".formSearch").fadeOut();
+});;
 
 $(".menuIcon").click(function () {
     $(".menuMobile").toggleClass("active");
