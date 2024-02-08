@@ -1088,8 +1088,11 @@ footer .footerBottom a:hover {
 
 /* ========= searchForm ========== */
 
-.searchForm {
+.formSearch {
     display: none;
+}
+
+.searchForm {
     background-color: var(--white-color);
     padding: 25px;
     border-radius: 8px;
@@ -1097,37 +1100,38 @@ footer .footerBottom a:hover {
     position: fixed;
     top: 25%;
     left: 50%;
+    z-index: 999;
     transform: translateX(-50%);
     width: 30%;
     height: auto;
 }
 
-.searchForm .closed {
-    width: 35px;
-    height: 35px;
+.formSearch .closed {
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 5%;
-    left: 3%;
-    border: 1.5px solid;
-    display: grid;
-    place-items: center;
-    border-radius: 50px;
-    cursor: pointer;
-    font-family: var(--font-bold);
+    top: 0;
+    left: 0;
+    z-index: 9;
 }
 
 .searchForm form {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
+    border-bottom: 1.5px solid #757678;
+    /* border-radius: 8px; */
+    outline: none;
+    padding: 8px 0;
 }
 
 .searchForm input {
-    border: 1.5px solid #757678;
     border-radius: 8px;
     outline: none;
-    padding: 8px;
+    border: 0;
+    height: 39px;
+    width: 100%;
 }
 
 .searchForm button {
