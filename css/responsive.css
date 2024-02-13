@@ -107,11 +107,11 @@
 
     .slider,
     .slider .slide,
-    .slider .slideImage img{
+    .slider .slideImage img {
         height: auto;
     }
 
-    .slider li.slide .content{
+    .slider li.slide .content {
         font-size: 18px;
     }
 
@@ -241,9 +241,9 @@
 
     header .headerTop .headerTopMobile,
     header .headerBottom .headerBottomMobile {
-            display: flex;
-    align-items: center;
-    justify-content: space-between;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     header .headerBottom .headerBottomMobile {
@@ -339,6 +339,53 @@
         font-family: var(--font-medium);
         padding: 0 0 0 5px;
     }
+
+    .innerTop {
+        height: 250px;
+    }
+
+    #sign-up-form {
+        width: 75%;
+    }
+
+    .page-contactUs .innerContent main form fieldset.group .form-group {
+        width: 100%;
+    }
+
+    .page-contactUs .branches .contactTop fieldset {
+        margin-bottom: 30px;
+    }
+
+    .page-contactUs .innerContent aside nav.socailMedia {
+        margin-bottom: 35px;
+    }
+
+    .logIn .dropdown-menu {
+        left: unset;
+        right: 0;
+    }
+
+    .page-myOrder .innerContent aside nav,
+    .page-accountInfo .innerContent aside nav,
+    .page-checkout .innerContent main form {
+        margin-bottom: 30px;
+    }
+
+    .page-checkout-decline .box,
+    .page-checkout-success .box {
+        width: 75%;
+    }
+
+    .page-myOrder .innerContent main .myOrderInfo {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .page-menu3 .content #ourMenu .card-body,
+    .page-menu2 .content #ourMenu .card-body {
+        gap: 10px;
+    }
+
 }
 
 /************************************767px*********************************************/
@@ -427,5 +474,84 @@
     header .headerBottom .headerBottomMobile .menuMobile .searchMobile input {
         width: 92%;
     }
+
+    .innerTop {
+        height: 170px;
+    }
+
+    #sign-in-form,
+    #sign-up-form {
+        width: 90%;
+    }
+
+    #sign-up-form .info {
+        text-align: center;
+    }
+
+    #sign-in-form ul {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .page-accountInfo .innerContent main form fieldset.group .form-group,
+    .page-checkout .innerContent main form fieldset.group .form-group {
+        width: 100%;
+    }
+
+    .page-checkout .innerContent main form fieldset.payments {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .page-checkout-decline .box,
+    .page-checkout-success .box {
+        width: 100%;
+    }
+
+    .page-menu .mainCategory {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .page-menu2 .content .topContent,
+    .page-sub-menu .content .topContent,
+    .page-menu .content .topContent {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .page-sub-menu #ourMenu .product.listItems .card,
+    .page-menu #ourMenu .product.listItems .card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .page-menu #ourMenu .product.listItems .card .list-group,
+    .page-menu #ourMenu .product.listItems .card .list-group.addOrder,
+    .page-sub-menu #ourMenu .product.listItems .card .list-group.addOrder {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .page-menu3 .content #ourMenu .card-body,
+    .page-menu2 .content #ourMenu .card-body {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .logIn button {
+        padding: 0;
+    }
+
 
 }
